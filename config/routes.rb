@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   root 'pages#home'
   get 'about', to: 'pages#about'
-  resources :articles, only: [:show, :index, :new, :create, :edit, :update]
-
+  resources :articles
+  #resources :articles, only: [:show, :index, :new, :create, :edit, :update, :edit, :update, :destroy]
+  #This is all the resources that we can use, the 'only' is to use specific resources
 
 end
