@@ -25,3 +25,8 @@ When changing info and making some modification to the code:
 Additional info
 If we wanna create a new controller type
 rails generate controller name_of_controller
+
+
+
+Also in this project
+Deploy to production using Heroku (optional) - production hosting service
